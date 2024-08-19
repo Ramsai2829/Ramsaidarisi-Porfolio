@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/Pic1-bg.png);
+    background-image: url('Pic1-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -330,7 +330,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/pic1-mb-bg.png);
+        background-image: url('pic1-Mb.png');
         position: relative; /* Added to make positioning relative to header */
     }
     
