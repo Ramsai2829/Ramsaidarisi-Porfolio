@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Ram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d8a58e2f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/name.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#ABOUT ME">ABOUT</a></li>
+                <li><a href="#CERTIFICATIONS">CERTIFICATIONS</a></li>
+                <!--<li><a href="#Portfolio">Portfolio</a></li>-->
+                <li><a href="#CONTACT">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWARE ENGINEER</p>
+            <h1>HI, I'M <span>DARISI<br>LAKSHMI RAMA SAI</span></h1>
+        </div>
+    </div>
+</div>
+
+<!-----------about---------------->
+
+<div id="ABOUT ME">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WhatsApp Image 2024-08-15 at 4.10.32 PM (1).jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>As a highly motivated and detail-oriented recent Computer Science and Engineering graduate, I aim to leverage my 
+                    solid foundation in software technology and tools to contribute effectively in a challenging role. I am eager to apply 
+                    my problem-solving skills and knowledge of software development life cycles to drive quality and innovation within 
+                    a dynamic team, ultimately contributing to the success and growth of the organisation.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('INTERNSHIPS')">INTERNSHIPS</p>
+                        <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>JAVA</span><br>Basics of Core Java, Arrays, OOP Concepts<br>Constructors, Abstraction, Encapsulation, Exceptions, Collection Framework</li>
+                            <li><span>ORACLE SQL</span><br> Good in RDBMS Concepts like Data Types and constraints<br>Good Knowledge of Writing SQL queries and Subquery, Co-related subquery<br>Strong Knowledge on SQL Joins and also having Knowledge of DDL, DML, DCL, and TCL</li>
+                            <li><span>MANUAL TESTING</span><br>SDLC Stages and Models, STLC Methods<br> Smoke Testing, Sanity Testing, White Box Testing, and Black Box testing, Regression testing</li>
+                            <li><span>ARTIFICIAL INTELLIGENCE</span><br>Data Science<br>NLP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="INTERNSHIPS">
+                        <ul>
+                            <li><span>AUGUST 2024 - Current</span><br>INFOSYS SPRINGBOARD INTERNSHIP 5.0 on Artificial Intelligence</li>
+                            <li><span>FEBRUARY 2024 - JULY 2024</span><br>Software Testing Internship at Q&J Spiders Chrompet, Chennai.</li>
+                            <li><span>OCTOBER 2023 - NOVEMBER 2023 </span><br>AICTE Internship Java Programming Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="EDUCATION">
+                        <ul>
+                            <li><span>SEPTEMBER 2020 - APRIL 2024</span><br>B.Tech - Computer Science and Engineering at Bharath University,India<br>C.G.P.A: 8.77</li>
+                            <li><span>JUNE 2018 - APRIL 2020</span><br>Intermediate(Maths,Physics,Chemistry) at Sasi New Gen Junior College,India<br>C.G.P.A: 9.3</li>
+                            <li><span>JUNE 2017 - APRIL 2018 </span><br>S.S.C Education at Sasi Residential School<br>C.G.P.A: 9.3</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-----------certifications -------->
+<div id="CERTIFICATIONS">
+    <div class="container">
+        <h1 class="sub-title">CERTIFICATIONS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Java Basic Certification (2).png">
+                <div class="layer">
+                    <h2>Java Basic Certification</h2>
+                    <p>Awarded with the Java Basic Certification on HackerRank Website.</p>
+                    <a href="https://www.hackerrank.com/certificates/e5c168fcb761"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sql-basic.png">
+                <div class="layer">
+                    <h2>SQL Basic Certification</h2>
+                    <p>Awarded with the SQL Basic Certification on HackerRank Website.</p>
+                    <a href="https://www.hackerrank.com/certificates/9dbac803abae"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sql inter.jpeg">
+                <div class="layer">
+                    <h2>SQL Intermediate</h2>
+                    <p>Awarded with the SQL Intermediate Certification on HackerRank Website.</p>
+                    <a href="https://www.hackerrank.com/certificates/9dbac803abae"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/problem-solving.jpeg">
+                <div class="layer">
+                    <h2>Problem-Solving</h2>
+                    <p>Awarded with the Problem-Solving Certification on HackerRank Website</p>
+                    <a href="https://www.hackerrank.com/certificates/a0b8e51032ee"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/testing.jpg">
+                <div class="layer">
+                    <h2>Manual Testing</h2>
+                    <p>Awarded with the Manual Testing Certification by participating in Testing Workshop conducted by TestYantraCrowd Website.</p>
+                    <a href="https://www.linkedin.com/posts/lakshmi-rama-sai-darisi-7bb809226_testyantra-testyantracrowd-softwaretesting-activity-7217581993234980864-L2FW?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/AICTE Intersnhip Certification (1).png">
+                <div class="layer">
+                    <h2>AICTE Internship</h2>
+                    <p>Awarded with the Java Programming Certification for Completion of Java Programming domain internship on AICTE.</p>
+                    <a href="https://www.linkedin.com/posts/lakshmi-rama-sai-darisi-7bb809226_motion-cut-internship-certificate-activity-7127691947372146688-ZBxn?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Data Science Certification.png">
+                <div class="layer">
+                    <h2>Data Science</h2>
+                    <p>Awarded with the Data Science Certification in Infosys Springboard Artificial Intelligence Internship 5.0.</p>
+                    <a href="https://www.linkedin.com/posts/lakshmi-rama-sai-darisi-7bb809226_infosys-datascience-data-activity-7229412330176978944-eTJo?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/NLP Certification.png">
+                <div class="layer">
+                    <h2>NLP</h2>
+                    <p>Awarded with the (NLP) Certification in Infosys Springboard Artificial Intelligence Internship 5.0.</p>
+                    <a href="https://www.linkedin.com/posts/lakshmi-rama-sai-darisi-7bb809226_infosys-infosysspringboard-internship-activity-7229452980402405377-C2xn?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!---------Portfolio------------------------------------------->
+<!------------------------   Contact ---------------------->
+
+<div id="CONTACT">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title" >Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>ramsaidarsi@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 7671078028</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lakshmi-rama-sai-darisi-7bb809226"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.hackerrank.com/profile/ramsaidarsi"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://www.instagram.com/_ram_sai_darisi_?igsh=MXhhOXFqZmo1cGl5cQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+            <a href="images/Lakshmi Rama Sai Darisi Resume_.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+function openmenu() {
+    sidemenu.style.right = "0"; // Show the menu
+}
+function closemenu() {
+    sidemenu.style.right = "-200px"; // Hide the menu
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_bjZdtCtG9V1vMZyQB9io__nahQ08ck1JJIlc9zeKmkIlEJKMHPABdbJ5Jxt8TAGpcQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    
+  </script>
+</body>
+</html>
