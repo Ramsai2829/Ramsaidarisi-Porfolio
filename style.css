@@ -330,7 +330,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url('Pic1-mb-bg.png');
+        background-image: url('pic1-mb-bg.png');
         position: relative; /* Added to make positioning relative to header */
     }
     
