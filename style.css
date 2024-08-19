@@ -423,7 +423,7 @@ nav ul {
 #header {
     width: 100vw; /* Use viewport width instead of fixed width */
     height: 100vh; /* Use viewport height instead of fixed height */
-    background-image: url(images/Pic1.png);
+    background-image: url('Pic1-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -432,7 +432,7 @@ nav ul {
 /* Add this media query to adjust the image for mobile devices */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/Pic1-Mb.png);
+        background-image: url('pic1-mb-bg.png');
         height: 50vh; /* Adjust the height for mobile devices */
     }
 }
