@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url('Pic1.png');
+    background-image: url('Pic1-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -330,7 +330,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url('Pic1-Mb.png');
+        background-image: url('pic1-mb-bg.png');
         position: relative; /* Added to make positioning relative to header */
     }
     
@@ -419,4 +419,20 @@ nav .fas {
 /* Make the menu hidden by default */
 nav ul {
     right: -200px; /* Adjust this value to match your menu width */
+}
+#header {
+    width: 100vw; /* Use viewport width instead of fixed width */
+    height: 100vh; /* Use viewport height instead of fixed height */
+    background-image: url(images/Pic1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Add this media query to adjust the image for mobile devices */
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url(images/Pic1-Mb.png);
+        height: 50vh; /* Adjust the height for mobile devices */
+    }
 }
