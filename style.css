@@ -345,12 +345,11 @@ form .btn2{
 }
 .contact-left p a{
     margin-top: 30px;
-    color: wheat;
+    color: white;
 }
 .contact-left p i {
-    color: #ff004f; /* This ensures the icons are visible with a different color */
+    color: #ff004f;
 }
-
 
 /* -----------------css for small screens--------- */
 nav .fas {
