@@ -357,7 +357,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url("Pic1-Mb.png");
+        background-image: url("images/Pic1-Mb.png");
         position: relative; /* Added to make positioning relative to header */
     }
     
@@ -384,8 +384,8 @@ nav .fas {
     }
 
     nav ul {
-        background: #ff004f;
-        position: realtive;
+        background: #f1eaed;
+        position:relative;
         top: 0;
         right: -200px;
         width: 200px;
