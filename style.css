@@ -384,8 +384,8 @@ nav .fas {
     }
 
     nav ul {
-        background: #f1eaed;
-        position:relative;
+        background: #ff004f;
+        position: realtive;
         top: 0;
         right: -200px;
         width: 200px;
@@ -437,59 +437,7 @@ nav .fas {
         font-size: 14px;
     }
 }
-#sidemenu {
-    position: fixed;
-    right: -200px;
-    top: 0;
-    width: 200px;
-    height: 100%;
-    background: #333;
-    transition: right 0.3s;
-}
 
-/* Show the sidemenu when open */
-#sidemenu.open {
-    right: 0;
-}
-
-/* Style for the menu icon */
-.fas.fa-bars, .fas.fa-times {
-    cursor: pointer;
-}
-
-/* Ensure the menu items are visible */
-#sidemenu ul {
-    list-style: none;
-    padding: 0;
-}
-
-#sidemenu ul li {
-    padding: 15px 20px;
-}
-
-#sidemenu ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-@media only screen and (max-width: 600px) {
-    nav ul {
-        display: block;
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 25px;
-    }
-}
 #msg {
     color: #61b752;
     margin-top: -40px;
