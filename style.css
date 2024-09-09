@@ -23,16 +23,16 @@ body{
     padding: 50px 10%;
 }
 
-nav ul{
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-/*.logo{
+.logo{
     width: 140px;
-}*/
+}
 
 nav ul li{
     display: inline-block;
@@ -41,7 +41,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: red;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -50,7 +50,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: white;
+    background: red;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -272,7 +272,6 @@ nav ul li a:hover::after{
     display: table;
     clear: both;
 }
-
 /* ---------contact-------- */
 .contact-left{
     flex-basis: 35%;
@@ -357,7 +356,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url("images/Pic1-Mb.png");
+        background-image: url("Pic1-Mb.png");
         position: relative; /* Added to make positioning relative to header */
     }
     
@@ -384,8 +383,8 @@ nav .fas {
     }
 
     nav ul {
-        background: #f1eaed;
-        position:relative;
+        background: #ff004f;
+        position: realtive;
         top: 0;
         right: -200px;
         width: 200px;
